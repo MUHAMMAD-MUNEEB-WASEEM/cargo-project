@@ -1,0 +1,112 @@
+.container{
+    /* margin: 100px 0; */
+    background-color: #080821;
+    padding: 5vh 0;
+}
+.innerContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #150035;
+    /* box-shadow: -1px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 0px 5px 0px rgba(0, 0, 0, 0.75); */
+    padding: 30px 90px;
+    border-radius: 10px;
+    /* margin-top: 30px; */
+}
+.innerContainer>.left{
+  /* border: 1px solid red; */
+  width: 48%;
+}
+.innerContainer>.left>h1{
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.innerContainer>.right{
+    width: 48%;
+}
+.innerContainer>.right>h1{
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.leftDetails>div{
+    margin-bottom: 20px;
+}
+/* .leftDetails>div>span{
+    display: block;
+    color: #ffffff;
+    margin-bottom: 8px;
+} */
+.container span{
+    display: block;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+.leftDetails>div>select{
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 1px solid #F46300;
+    background: transparent;
+    color:#F46300;
+}
+.modelYearInput{
+    display: flex;
+}
+.modelYearInput>div>span{
+    display: block;
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+.modelYearInput>div>input{
+    padding: 10px 20px;
+    border: 1px solid #F46300;
+    border-radius: 5px;
+    background: transparent;
+    
+}
+.modelYearInput>div>input:nth-child(2){
+    margin-right: 20px;
+}
+.container input{
+    padding: 10px 20px;
+    border: 1px solid #F46300;
+    border-radius: 5px;
+    background: transparent;
+}
+.rowInput{
+    display: flex;
+}
+.rowInput>div:nth-child(2){
+    margin-left: 20px;
+}
+.right>div{
+    margin-bottom: 20px;
+}
+.radiusInput>div>input:nth-child(2){
+    margin-left: 20px;
+}
+.btnContainer{
+    display: flex;
+    justify-content: flex-end;
+    /* border: 1px solid red; */
+    width: 100%;
+}
+.btnContainer>button{
+    padding: 8px 25px;
+    color: #ffffff;
+    border-radius:5px;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+}
+.btnContainer>button:nth-child(2){
+    margin-left: 20px;
+    background-color: #F46300;
+}
+.btnContainer>button:nth-child(1){
+    background-color: #39A1FF;
+}
+

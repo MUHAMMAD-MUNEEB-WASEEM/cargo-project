@@ -1,0 +1,111 @@
+
+
+.cont{
+    height: 85vh;
+    width: 100%;
+    background-color: #080821;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginWrap{
+    border-radius: 20px;
+    height: 95%;
+    width: 40vw;
+    background-color: #150035;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.heading{
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.inputWrap{
+    /* border: 1px solid white; */
+    width: 70%;
+}
+.inputWrap input{
+    background-color: transparent;
+    border-color: #F46300;
+    border-width: 1px;
+    width: 99%;
+    height: 50px;
+    border-radius: 5px;
+   
+    margin-top: 1vh;
+}
+.inputWrap input::placeholder{
+    padding-left: 10px;
+}
+.inputWrap div{
+    color: white;
+    font-size: 12px;
+}
+
+.loginBtn{
+    background-color: #F46300;
+    width: 70%;
+    height: 50px;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  
+    /* padding: 0 5px; */
+}
+.loginBtn:hover{
+    cursor: pointer
+}
+.loginGoogleBtn{
+    background-color: #39A1FF;
+    width: 70%;
+    height: 50px;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    /* padding: 0 5px; */
+}
+.loginGoogleBtn:hover{
+    cursor: pointer;
+}
+.rememberWrap{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.checkboxWrap{
+    display: flex;
+}
+.checkboxWrap div{
+    color: white;
+    font-size: 14px;
+}
+.forgot{
+    color:white;
+    font-size: 14px;
+}
+.forgot:hover{
+    cursor: pointer;
+}
+.question{
+    color: white;
+    font-size: 14px;
+}
+.question span{
+    color: #5071A8;
+    font-size: 15px;
+    font-weight: 600;
+}
+.question span:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,83 @@
+
+
+.cont{
+    height: 85vh;
+    width: 100%;
+    background-color: #080821;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signupWrap{
+    border-radius: 20px;
+    height: 95%;
+    width: 40vw;
+    background-color: #150035;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.heading{
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+}
+.loginBtn{
+    background-color: #F46300;
+    width: 70%;
+    height: 50px;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  
+    /* padding: 0 5px; */
+}
+.loginBtn:hover{
+    cursor: pointer
+}
+
+.question{
+    color: white;
+    font-size: 14px;
+}
+.question span{
+    color: #5071A8;
+    font-size: 15px;
+    font-weight: 600;
+}
+.question span:hover{
+    cursor: pointer;
+}
+
+.option{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid white; */
+    width: 70%;
+    height: 15vh;
+}
+.imgWrap{
+    width: 30%;
+    background-color: #39A1FF;
+    height: 16vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-right: 1vw;
+}
+.imgWrap img{
+   height: 60%;
+}
+.imgText{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.imgText:hover{
+    cursor: pointer;
+}
